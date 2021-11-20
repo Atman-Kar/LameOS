@@ -1,0 +1,9 @@
+kernel/*.bin
+kernel/*.o
+boot/*.bin
+boot/*.o
+*.bin
+*.elf
+*.bat
+*.pdf
+*.ini
