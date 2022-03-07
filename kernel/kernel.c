@@ -28,7 +28,7 @@ void _start () {
 
 	isr_setup();
 
-	__asm__ __volatile__("int $10");
+	__asm __volatile__("int $10");
 	// __asm__ __volatile__("int $12");
 	// __asm__ __volatile__("int $1");
         
