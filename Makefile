@@ -1,8 +1,8 @@
 # our C files
-C_SOURCES = $(wildcard kernel/*.c interrupts/*.c)
+C_SOURCES = $(wildcard kernel/*.c interrupts/*.c drivers/*.c)
 
 # our header files
-HEADERS = $(wildcard interrupts/*.h)
+HEADERS = $(wildcard interrupts/*.h drivers/*.h)
 
 # object files
 OBJ = ${C_SOURCES:.c=.o interrupts/interrupt_entry_point.o}
@@ -29,4 +29,4 @@ run: os-img.bin
 
 
 clean:
-	rm -rf *.bin *.o boot/*.bin kernel/*.bin boot/*.o kernel/*.o interrupts/*.o interrupts/*.bin
+	rm -rf *.bin *.o boot/*.bin kernel/*.bin boot/*.o kernel/*.o interrupts/*.o interrupts/*.bin drivers/*.bin drivers/*.o
