@@ -9,7 +9,8 @@ I started this project to get a better understanding of x86 architecture for har
 - [x]    Bootsector assembly code. 
 - [x]    Shift from 16 bit real mode to 32 bit protected mode
 - [x]    Simple Kernel in C to write to video memory address 
-- [ ]    Setup IDT and handle interrupts      
+- [x]    Implement VGA drivers and build simple putc and puts functionality to print on screen.
+- [x]    Setup IDT and handle interrupts      
 
 ## Requirements 
 To run the project, you will require: 
