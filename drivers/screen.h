@@ -16,6 +16,5 @@ void putc(char, unsigned char);
 void clear(void);
 void puts(char *, char);
 void reset_cursor(void);
-void push_cursor_position(unsigned short jump);
 
 #endif
